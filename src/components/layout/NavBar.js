@@ -5,7 +5,7 @@ const NavBar = ({ icon, title }) => {
   return (
     <nav className='navbar bg-primary'>
       <h1>
-        <i className={icon} />
+        <i className={icon} style={{ marginRight: '1rem' }} />
         {title}
       </h1>
     </nav>
